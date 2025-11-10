@@ -88,7 +88,7 @@ final class Consumer extends PushMessages\Consumer
 	public function __construct(
 		WebSocketsZMQ\Configuration $configuration,
 		Serializers\PushMessageSerializer $serializer,
-		Log\LoggerInterface $logger = NULL
+		?Log\LoggerInterface $logger = NULL
 	) {
 		parent::__construct('zmq');
 
