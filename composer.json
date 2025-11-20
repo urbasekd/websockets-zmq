@@ -46,7 +46,7 @@
 
     "react/zmq" : "~0.3",
 
-    "psr/log" : "~1.0",
+    "psr/log": "^1.1|^3.0",
 
     "ipub/websockets-wamp" : "^1.3.0"
   },
