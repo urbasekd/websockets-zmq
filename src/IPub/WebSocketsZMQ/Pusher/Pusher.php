@@ -67,7 +67,7 @@ final class Pusher extends PushMessages\Pusher
 		WebSocketsZMQ\Configuration $configuration,
 		Router\LinkGenerator $linkGenerator,
 		Serializers\PushMessageSerializer $serializer,
-		Log\LoggerInterface $logger = NULL
+		?Log\LoggerInterface $logger = NULL
 	) {
 		parent::__construct('zmq', $serializer, $linkGenerator);
 
